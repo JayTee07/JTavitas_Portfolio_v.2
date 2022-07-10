@@ -1,4 +1,28 @@
-/* Navigation Items */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Items 
 .navigation {
     width: 1920px;
     height: 105px;
@@ -143,9 +167,9 @@
 }
 .navDropList li:hover, li:focus {
   background-color: #B3D5F2;
-}
+}*/
 
-/* Hero Banner */
+/* Hero Banner
 .hero {
     margin-top: 97px;
     position: absolute;
@@ -189,9 +213,9 @@
     font-weight: 400;
     line-height: 26px;
     color: #ffffff;
-}
+} */
 
-/* Portfolio Section */
+/* Portfolio Section 
 .portfolioContent {
     width: 1920px;
     margin-top: 405px;
@@ -201,9 +225,9 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-}
+}*/
 
-/* Portfolio Content - Case Studies Block */
+/* Portfolio Content - Case Studies Block 
 .caseStudies {
     width: 780px;
     height: 300px;
@@ -284,9 +308,9 @@
     font-weight: 600;
     color: #f26b76;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.4);
-}
+}*/
 
-/* Portfolio Content - Other Works Block */
+/* Portfolio Content - Other Works Block 
 .otherWorks {
     width: 780px;
     height: 300px;
@@ -331,7 +355,7 @@
     color: #ffffff;
     height: 19px;
 
-}
+}*/
 /* Button CSS for the Future
 .worksCopy button {
     display: flex;
@@ -351,7 +375,7 @@
 }
 */
 
-/* Contact Me Section */
+/* Contact Me Section 
 .inTouch_Headline {
     width: 780px;
     height: 56px;
@@ -368,9 +392,9 @@
     font-weight: 800;
     font-size: 40px;
     color: #035aa6;
-}
+}*/
 
-/* Contact Form */
+/* Contact Form 
 .contactForm {
     width: 580px;
     height: 343px;
@@ -484,9 +508,9 @@
     font-weight: 600;
     color: #f26b76;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.4);
-}
+}*/
 
-/* Footer Styles */
+/* Footer Styles 
 .flexFoot {
     width: 1180px;
     height: 105px;
@@ -513,4 +537,4 @@
     font-weight: 400;
     font-style: normal;
     color: darkgray;
-}
+}*/
