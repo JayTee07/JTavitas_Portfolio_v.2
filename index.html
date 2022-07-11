@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -13,19 +13,44 @@
 <body>
     <!-- Header with Navbar -->
     <header class="nav">
-        <div class="navBar">
-            <div class="logoBox">
-                <h6 class="logo">JAY TAVITAS</h6>
-            </div>
-            <nav>
+        <div class="navBar flex">
+            <div class="logoBox">JAY TAVITAS</div>
+            <nav class="navLinks">
                 <ul>
-                    <li><a href="index2.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="index.html"><div class="navLinkHome">Home</div></a></li>
+                    <li><a href><div class="navLinkAbout">About</div></a></li>
+                    <li><a href><div class="navLinkResume">Resume</div></a></li>
                 </ul>
             </nav>
         </div>
-
     </header>
+
+    <!-- Hero Section-->
+    <section class="hero">
+        <div class="container grid">
+            <div class="heroText">
+                <div class="heroTitle"><h1>Hi there!</h1></div>
+                <div class="underLine"></div>
+                <p class="heroCopy">I’m a UX/UI designer with 18 years experience as an art director and graphic designer in print and digital marketing for retail, finance, healthcare and nonprofits.</p>
+            </div>
+            
+            <div class="heroImage">
+                <img src="./Images/Jay.png">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="caseStudies">
+        <div class="container flex">
+            <div class="caseStudiesText">
+                <div class="caseStudiesTitle"><h2>Case Studies</h2></div>
+                <div class="caseStudiesUnderline"></div>
+                <p class="caseStudiesCopy">Select case studies from a recent UX/UI bootcamp.</p>
+            </div>
+        </div>
+
+    </section>
 </body>
 </html>

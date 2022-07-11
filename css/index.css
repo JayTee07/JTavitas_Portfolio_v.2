@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    color: #fff;    
+}
+
+ul {
+    list-style: none;
+}
+
+.logoBox {
+    font-weight: 300;
+    font-size: 1.625rem;
+    letter-spacing: 0.3125rem;
+    margin: 1.25rem 0rem;
+}
+img {
+    width: 100%;
+}
+
+.nav {
+    height: 100px;
+    background-color: #000;
+}
+.nav .flex {
+    justify-content: space-between;
+}
+
+.navBar {
+    max-width: 73.75rem;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 2.5rem;
+}
+
+.navBar ul {
+    display: flex;
+}
+
+.navBar a {
+    color: #fff;
+    padding: 0.625rem;
+    margin: 0 0.3125rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navLinks {
+    cursor: pointer;
+}
+.navLinkHome {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    cursor: pointer;
+}
+.navLinkHome:hover{
+    opacity: 1;
+    visibility: visible;
+}
+.navLinkHome::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    border-radius: 7px;
+    position: absolute;
+    left: 15px;
+    bottom: -10px;
+    background-color: #4CD265;
+    transition: width 200ms ease-in;
+}
+.navLinkHome:hover::after{
+    width:60%;
+}
+.navLinkAbout {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    cursor: pointer;
+}
+.navLinkAbout:hover {
+    opacity: 1;
+    visibility: visible;
+}
+.navLinkAbout::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    border-radius: 7px;
+    position: absolute;
+    left: 14px;
+    bottom: -10px;
+    background-color: #4CD265;
+    transition: width 200ms ease-in;
+}
+.navLinkAbout:hover::after{
+    width:62%;
+}
+.navLinkResume {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    cursor: pointer;
+}
+.navLinkResume:hover {
+    opacity: 1;
+    visibility: visible;
+}
+.navLinkResume::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    border-radius: 7px;
+    position: absolute;
+    left: 16px;
+    bottom: -10px;
+    background-color: #4CD265;
+    transition: width 200ms ease-in;
+}
+.navLinkResume:hover::after{
+    width:66%;
+}
+
+/* Hero Section*/
+.hero {
+    background-color: #000;
+    position: relative;
+}
+.hero .grid {
+    grid-template-columns: 1.75fr 1fr;
+}
+.underLine {
+    background-color: #4CD265;
+    width: 44%;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.heroText {
+    margin-top: 100px;
+}
+.heroTitle {
+    font-weight: 900;
+    font-size: 3rem;
+   
+}
+.heroCopy {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+.heroImage {
+    max-width: 100%;
+    margin-top: 36px;
+    margin-bottom: 40px;
+}
+
+/* Case Studies Section*/
+.caseStudies {
+    background-color: #000;
+    position: relative;
+}
+.caseStudiesText {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.caseStudiesTitle {
+    font-family: 'Roboto', "sans-serif";
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.caseStudiesUnderline {
+    background-color: #4CD265;
+    width: 80%;
+    height: 7px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.caseStudiesCopy {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 73.75rem;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 2.5rem;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    height: 100%;
+}
