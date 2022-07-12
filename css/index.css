@@ -643,11 +643,12 @@ img {
     background-color: #000;
     border: 3px solid #4CD265;
     border-radius: 7px;
+    margin-top: 50px;
 }
 
 /* First Grid Item */
 .listBoxIcon {
-    width: 100%;
+    max-width: 110px;
     background-image: url(../Images/pencil.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -655,20 +656,20 @@ img {
     overflow: hidden;
     margin-top: 58px;
     margin-left: 51px;
-    grid-area: one;
+    margin-bottom: 200px;
 }
 
 .listBoxGrid {
     display: grid;
-    grid-template-columns: 15% 82%;
-    width: 100%;   
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 1100px;   
 }
 
 /* Second Grid Item */
 .listBoxText {
     width: 100%;
     margin-top: 58px;
-    grid-area: two;
 }
 .listBoxTitle {
     font-family: 'Roboto', 'sans-serif';
@@ -677,7 +678,7 @@ img {
 }
 .skillsUnderline {
     background-color: #4CD265;
-    width: 150px;
+    width: 19%;
     height: 5px;
     border-radius: 10px;
     margin-top: 10px;
@@ -688,21 +689,64 @@ img {
     flex-direction: row;
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 58px;
 }
 .listBoxLists li {
     margin-bottom: 14px;
     width: 180px;
 }
+.appsUnderline {
+    background-color: #9816D4;
+    width: 40%;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.appsIcon {
+    max-width: 110px;
+    background-image: url(../Images/website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    margin-top: 52px;
+    margin-left: 51px;
+    margin-bottom: 135px;
+}
+.appsListBox {
+    border: 3px solid #9816D4;
+    margin-top: 75px;
+}
+.intsUnderline {
+    background-color: #2e67f8;
+    width: 29%;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.intsIcon {
+    max-width: 110px;
+    background-image: url(../Images/watercolor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    margin-top: 55px;
+    margin-left: 51px;
+    margin-bottom: 96px;
+}
+.intsListBox {
+    border: 3px solid #2e67f8;
+    margin-top: 75px;
+}
 
 .skillsAppsInts .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 39px;
-    grid-template-areas:
-    'one two';
+    grid-template-columns: 15% 82%;
    
 }
 
