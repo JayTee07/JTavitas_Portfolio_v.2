@@ -198,6 +198,7 @@ img {
 .caseStudies {
     background-color: #000;
     position: relative;
+    padding-bottom: 75px;
 }
 .caseStudiesText {
     margin-top: 75px;
@@ -226,6 +227,366 @@ img {
     font-weight: 400;
 }
 
+/* First Grid Item */
+.first {
+    width: 100%;
+    background-color: #00A5B9;
+    border-radius: 7px;
+    grid-area: one;
+}
+.firstColor {
+    background-color: #5BA6CD ;
+}
+
+.firstText {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.firstTitle {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+}
+.firstUnderline {
+    background-color: #4CD265;
+    width: 175px;
+    height: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.firstCopy {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.firstBtn {
+
+}
+.firstImage {
+    background-image: url(../Images/Cannoli_Website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.firstWorksImage {
+    background-image: url(../Images/LensBoard.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.firstGrid {
+    display: grid;
+    grid-template-columns: 27% 73%;
+    gap: 0px;
+    width: 100%;
+   
+}
+
+/* Second Grid Item */
+.second {
+    width: 100%;
+    background-color: #9816D4;
+    border-radius: 7px;
+    grid-area: two;
+}
+.secondColor{
+    background-color: #CB28BB;
+}
+.secondText {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.secondTitle {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+}
+.secondUnderline {
+    background-color: #4CD265;
+    width: 175px;
+    height: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.secondCopy {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.soon{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.secondImage {
+    background-image: url(../Images/VW_Social_iPhone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    max-width: 100%;
+}
+.secondWorksImage {
+    background-image: url(../Images/VW_Social_iPhone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    max-width: 100%;
+}
+.secondGrid {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    width: 100%;
+    height: 100%;
+}
+
+/* Third Grid Item */
+.third {
+    width: 100%;
+    background-color: #2563C8;
+    border-radius: 7px;
+    grid-area: three;
+}
+.thirdColor {
+    background-color: #828384 ;
+}
+.thirdText {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.thirdTitle {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+}
+.thirdUnderline {
+    background-color: #4CD265;
+    width: 175px;
+    height: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.thirdCopy {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.thirdImage {
+    background-image: url(../Images/USDA_Website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.thirdWorksImage {
+    background-image: url(../Images/Knight_website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.thirdGrid {
+    display: grid;
+    grid-template-columns: 27% 73%;
+    gap: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.caseStudies .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-areas:
+    'one one two'
+    'three three two';
+    height: 776px;
+}
+
+/* Contact Form Section */
+.contact {
+    background-color: #000;
+    position: relative;
+    padding-bottom: 75px;
+}
+.contactText {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.contactTitle {
+    font-family: 'Roboto', "sans-serif";
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.contactUnderline {
+    background-color: #4CD265;
+    width: 52.5%;
+    height: 7px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Contact Form */
+.contactForm {
+    width: 580px;
+    height: 343px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.topInputs {
+    width: 580px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.leftInput, .rightInput {
+    width: 280px;
+    height: 36px;
+    display: flex;
+}
+.nameInput {
+    width: 280px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px darkgray solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: darkgray;
+}
+.emailInput {
+    width: 280px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px darkgray solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: darkgray;
+}
+.bottomInput {
+    width: 580px;
+    height: 190px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+.messageInput {
+    width: 580px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    border: 1px darkgray solid;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: darkgray;
+}
+.formflex {
+    display: flex;
+    flex-direction: column;
+}
+.btnForm {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #4CD265;
+}
+.btnForm:hover {
+    transform: scale(0.95);
+}
+
+/* Footer */
+.navLinkedin {
+   
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    bottom: 7px;
+}
+.navLinkedin:hover {
+    opacity: 1;
+    visibility: visible;
+}
+.navLinkedin::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    border-radius: 7px;
+    position: absolute;
+    left: 20px;
+    bottom: -18px;
+    background-color: #4CD265;
+    transition: width 200ms ease-in;
+}
+.navLinkedin:hover::after{
+    width:60%;
+}
+
+.copyRight {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .container {
     max-width: 73.75rem;
     margin: 0 auto;
@@ -244,4 +605,19 @@ img {
     gap: 30px;
     justify-content: center;
     height: 100%;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn:hover {
+    transform: scale(0.95);
 }
