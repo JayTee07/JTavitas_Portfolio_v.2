@@ -7,7 +7,8 @@
 body {
     font-family: 'Roboto', 'sans-serif';
     color: #fff; 
-    position: relative;   
+    position: relative; 
+    background-color: #000;  
 }
 header {
     position: fixed;
@@ -27,7 +28,7 @@ a {
     color: #fff;
 }
 
-h6 {
+.logo {
     font-weight: 300;
     font-size: 1.625rem;
     letter-spacing: 0.3125rem;
